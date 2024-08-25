@@ -1,0 +1,94 @@
+/* Estilos para el cuerpo y tipografía general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f0; /* Fondo ligeramente verde claro */
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #004d00; /* Verde oscuro */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido Principal */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #004d00; /* Verde oscuro */
+}
+
+#uploadForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#uploadForm input,
+#uploadForm button {
+    margin-bottom: 10px;
+}
+
+#uploadForm button {
+    background-color: #008000; /* Verde más brillante */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#uploadForm button:hover {
+    background-color: #004d00; /* Verde oscuro */
+}
+
+#dataTable, #dataAnalysis {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-left: 4px solid #004d00; /* Indicador verde */
+}
+
+/* Pie de Página */
+footer {
+    background-color: #004d00; /* Verde oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

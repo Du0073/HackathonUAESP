@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Datos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Plataforma de Datos</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#upload">Subir Archivos</a></li>
+                <li><a href="#visualize">Visualizar Datos</a></li>
+                <li><a href="#analyze">Análisis de Datos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Carga de Archivos -->
+    <section id="upload">
+        <h2>Subir Archivos Excel</h2>
+        <form id="uploadForm">
+            <input type="file" id="fileInput" accept=".xlsx, .xls">
+            <button type="submit">Cargar</button>
+        </form>
+        <div id="uploadStatus"></div>
+    </section>
+
+    <!-- Sección de Visualización de Datos -->
+    <section id="visualize">
+        <h2>Visualizar Datos</h2>
+        <div id="dataTable">
+            <!-- Aquí se mostrarán los datos cargados -->
+        </div>
+    </section>
+
+    <!-- Sección de Análisis de Datos -->
+    <section id="analyze">
+        <h2>Análisis de Datos</h2>
+        <div id="dataAnalysis">
+            <!-- Aquí se mostrarán los análisis de datos -->
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>© 2024 Plataforma de Datos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
